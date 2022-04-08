@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
+    <meta name="description" content="відеозйомка, монтаж, фото" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>MT-group</title>
@@ -15,27 +15,45 @@
 <body>
     <header>
         <div class="navigation_header">
-            <a class="navigation_logo">MT-group</a>
+            <a class="navigation_logo" href="/">MT-group</a>
             <nav>
                 <ul class="nav_list">
-                    <li class="nav_item"><a class="nav_link" href="">photo</a></li>
-                    <li class="nav_item"><a class="nav_link" href="">video</a></li>
-                    <li class="nav_item"><a class="nav_link" href="">about us</a></li>
+                    <li class="nav_item"><a class="nav_link" href="#photo">photo</a></li>
+                    <li class="nav_item"><a class="nav_link" href="/">video</a></li>
+                    <li class="nav_item"><a class="nav_link" href="/">about us</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main class="main">
         <h1 class="tytle">Lorem ipsum dolor sit amet consectetur ?</h1>
-        <ul class="img_list">
-            <li class="img_item"><img class="photo" src="./img/sunset.jpg" alt="sunset"></li>
-            <li class="img_item"><img class="photo" src="./img/fuck.jpg" alt="fuck"></li>
-            <li class="img_item"><img class="photo" src="./img/poter.jpg" alt="poter"></li>
-            <li class="img_item"><img class="photo" src="./img/elDivo.jpg" alt="elDivo"></li>
-            <li class="img_item"><img class="photo" src="./img/nacked.jpg" alt="nacked"></li>
-            <li class="img_item"><img class="photo" src="./img/light.jpg" alt="light"></li>
-            <li class="img_item"><img class="photo" src="./img/pretty.jpg" alt="pretty"></li>
-            <li class="img_item"><img class="photo" src="#" alt="would be soon"></li>
+        <ul id="photo" class="img_list">
+            <li class="img_item"><a class="img_link" href="#"><img class="photo" src="./img/sunset.jpg"
+                        alt="sunset"><video class="video" loop autoplay muted
+                        src="./video/video_2022-03-28_13-27-34.mp4"></video></a>
+            </li>
+            <li class="img_item"><a class="img_link" href=""><img class="photo" src="./img/fuck.jpg" alt="fuck">
+                    <video class="video" loop autoplay muted src="./video/animation.gif.mp4"></video></a>
+            </li>
+            <li class="img_item"><a class="img_link" href=""><img class="photo" src="./img/poter.jpg" alt="poter"><video
+                        src="./video/video_2022-03-28_13-27-34.mp4" class="video" loop autoplay muted></video></a>
+            </li>
+            <li class="img_item"><a class="img_link" href=""><img class="photo" src="./img/elDivo.jpg"
+                        alt="elDivo"><video src="./video/video_2022-03-28_13-28-42.mp4" class="video" loop autoplay
+                        muted></video></a>
+            </li>
+            <li class="img_item"><a class="img_link" href=""><img class="photo" src="./img/nacked.jpg"
+                        alt="nacked"><video src="./video/video_2022-03-28_13-30-29.mp4" class="video" loop autoplay
+                        muted></video></a>
+            </li>
+            <li class="img_item"><a class="img_link" href=""><img class="photo" src="./img/light.jpg" alt="light"><video
+                        src="./video/video_2022-03-28_13-31-07.mp4" class="video" loop autoplay muted></video></a>
+            </li>
+            <li class="img_item"><a class="img_link" href=""><img class="photo" src="./img/pretty.jpg"
+                        alt="pretty"><video src="" class="video" loop autoplay muted></video></a>
+            </li>
+            <li class="img_item"><a class="img_link" href=""><video class="photo" poster="./img/elDivo.jpg" loop
+                        src="./video/animation.gif.mp4" alt="would be soon"></video></a></li>
         </ul>
     </main>
     <footer>
@@ -56,7 +74,7 @@
             </li> -->
         </ul>
     </footer>
-    <!-- <script src=""></script> -->
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
